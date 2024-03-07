@@ -1,0 +1,25 @@
+{
+  "name": "github_manager",
+  "version": "1.0.0",
+  "description": "Provides programmatic access to github repository.",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "node appTester.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NYX1122/Github_Manager.git"
+  },
+  "author": "BoDee Angus",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NYX1122/Github_Manager/issues"
+  },
+  "homepage": "https://github.com/NYX1122/Github_Manager#readme",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "repository_creator": "file:../Repository_Creator",
+    "repository_deletor": "file:../Repository_Deletor"
+  }
+}
